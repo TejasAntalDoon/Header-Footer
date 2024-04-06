@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background: #2b2b79;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: auto 0;
+}
+
+nav .search_bar{
+    display: flex;
+    margin: auto 0;
+    height: 28px;
+    /* line-height: 35px; */
+    
+}
+
+nav .search_bar input{
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 90%;
+    padding: 0 10px;
+    font-size: 15px;
+    width: 1000px;
+    border-radius: 2px;
+    background-color: rgb(10, 10, 68);
+}
+
+
+nav .nav_icons{
+    margin: auto 0;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+
+}
+
+nav .nav_icons span{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+nav .nav_icons span:hover{
+    color: #0b0c46;
+    background-color: white;
+    opacity: .3;
+    transition: 0.1s;
+}
+
+.nav_icons .dash p{
+    padding: 2px;
+    font-size: 20px;
+}
+
+nav .buttons{
+    display: flex;
+    margin: auto 0;
+    /* padding: 5px; */
+    gap: 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+nav .buttons span{
+    font-size: 15px;
+}
+
+nav .buttons .b1{
+padding: 5px;
+}
+
+nav .buttons .b2{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.horizontal_line{
+    border: 1px solid blue;
+    margin: 20px 0;
+}
+
+footer{
+    background-color: rgb(10, 10, 68);
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 150px;
+    font-size: 13px;
+}
+
+.linklists ul li{
+    margin: 10px 0;
+    list-style: none;
+}
+
+.linklists ul li:hover{
+    color: blue;
+    cursor:pointer;
+    transition: .1s;
+}
+
+.footer_container h3:hover{
+    color: blue;
+    cursor:pointer;
+    transition: .1s;
+}
+
+.footer_container a{
+        text-decoration: none;
+        color: inherit;
+        outline: 0;
+}
+
+
+
